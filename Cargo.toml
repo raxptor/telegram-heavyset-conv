@@ -1,0 +1,12 @@
+[package]
+edition = "2018"
+name = "telegram-workout-bot"
+version = "0.1.0"
+authors = ["Dan Nilsson <raxptor@gmail.com>"]
+
+[dependencies]
+telegram-bot = "0.6"
+futures = "*"
+tokio-core = "*"
+tokio-request = { git = "https://github.com/NeoLegends/tokio-request" }
+csv = "1.1"
